@@ -1,0 +1,143 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  container: {
+    marginTop: 30,
+    marginBottom: 30,
+  },
+  balanceContainer: {
+    marginLeft: 10,
+  },
+  incomeContainer: {
+    margin: 20,
+    marginLeft: 50,
+    marginRight: 50,
+    flex: 1,
+    flexDirection: 'row',
+    justifyContent: 'space-evenly',
+    borderColor: '#ccc',
+    borderWidth: 2,
+  },
+  tracContainer: {
+    padding: 10,
+    minHeight: 50,
+  },
+  listContainerPlus: {
+    backgroundColor: '#fff',
+    borderRightWidth: 5,
+    borderRightColor: '#2ecc71',
+    borderBottomColor: '#ccc',
+    borderBottomWidth: 2,
+    borderLeftColor: '#ccc',
+    borderLeftWidth: 2,
+    borderTopColor: '#ccc',
+    borderTopWidth: 2,
+    color: '#333',
+    padding: 15,
+    margin: 10,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+  },
+  listContainerMinus: {
+    backgroundColor: '#fff',
+    borderBottomColor: '#ccc',
+    borderBottomWidth: 2,
+    borderLeftColor: '#ccc',
+    borderLeftWidth: 2,
+    borderTopColor: '#ccc',
+    borderTopWidth: 2,
+    color: '#333',
+    padding: 15,
+    margin: 10,
+    display: 'flex',
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    borderRightWidth: 5,
+    borderRightColor: '#c0392b',
+  },
+  incomeView: {
+    textAlign: 'center',
+    padding: 10,
+  },
+  header: {
+    padding: 15,
+  },
+  headerTitle: {
+    fontWeight: '600',
+    fontSize: 25,
+    textAlign: 'center',
+    marginTop: 10,
+    color: '#0a0e4f',
+    letterSpacing: 1,
+  },
+  title: {
+    margin: 10,
+    color: '#2A8547',
+    fontSize: 23,
+  },
+  moneyTitle: {
+    marginLeft: 10,
+    fontWeight: '600',
+    fontSize: 30,
+    letterSpacing: 1,
+  },
+  moneyTitlePlus: {
+    fontWeight: '600',
+    fontSize: 23,
+    letterSpacing: 1,
+    color: '#2ecc71',
+  },
+  moneyTitleMinus: {
+    fontWeight: '600',
+    fontSize: 23,
+    letterSpacing: 1,
+    color: '#c0392b',
+  },
+  smallText: {
+    fontSize: 16,
+    paddingLeft: 10,
+    paddingRight: 10,
+  },
+  inexText: {
+    fontSize: 20,
+    paddingTop: 5,
+    paddingBottom: 5,
+    fontWeight: '600',
+  },
+  text: {
+    fontSize: 20,
+    paddingTop: 5,
+    paddingBottom: 5,
+    paddingLeft: 10,
+    paddingRight: 10,
+    fontWeight: '600',
+  },
+  input: {
+    height: 45,
+    margin: 10,
+    padding: 10,
+    marginLeft: 20,
+    marginRight: 20,
+    borderColor: '#ccc',
+    borderWidth: 2,
+    fontSize: 18,
+  },
+  btn: {
+    backgroundColor: '#9c88ff',
+    borderRadius: 1,
+    margin: 10,
+    padding: 10,
+  },
+  btnTitle: {
+    color: '#fff',
+    fontSize: 18,
+    textAlign: 'center',
+
+  },
+  smallBtn: {
+    borderWidth: 1,
+  },
+});
+
+export default styles;
